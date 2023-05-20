@@ -1,0 +1,72 @@
+.body,
+html {
+  background-color: rgba(205, 134, 63, 0.463);
+}
+.CheckBox-Container {
+  border: 2px solid green;
+  background: rgba(128, 128, 128, 0.409);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+  border-radius: 15px;
+  display: flex;
+  width: 35%;
+  padding: 1%;
+  justify-content: space-between;
+}
+.CheckBox-Container-error {
+  border: 2px solid red;
+  background: rgba(128, 128, 128, 0.34);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+  border-radius: 15px;
+  display: flex;
+  width: 35%;
+
+  padding: 1%;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+.CheckBox-label {
+  font-family: sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.CheckBox-Error {
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  width: 40%;
+  border: 2px solid black;
+  color: rgba(255, 255, 255, 0.701);
+  /* text-shadow: 2px 2px 2px rgb(255, 255, 255); */
+  background: red;
+}
+
+.success {
+  justify-content: center;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  width: 40%;
+  border: 2px solid black;
+  color: rgba(255, 255, 255, 0.701);
+  /* text-shadow: 2px 2px 2px rgb(255, 255, 255); */
+  background: rgb(0, 255, 42);
+}
+
+.Authenticate {
+  background: green;
+  border-radius: 5px;
+  display: flex;
+  width: 15%;
+  height: 15%;
+  justify-content: center;
+}
+
+.Denied {
+  background: rgb(255, 0, 0);
+  border-radius: 5px;
+  display: flex;
+  width: 15%;
+  height: 15%;
+  justify-content: center;
+}
