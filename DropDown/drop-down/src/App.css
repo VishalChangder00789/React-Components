@@ -1,0 +1,12 @@
+.Wonder {
+  display: flex;
+  width: 35%;
+  justify-content: center;
+  /* border: 2px solid green; */
+  border-radius: 5px;
+  margin-top: 1%;
+  padding: 12px;
+  background: rgba(128, 128, 128, 0.409);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.374);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
