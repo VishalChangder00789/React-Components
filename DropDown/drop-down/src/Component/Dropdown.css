@@ -1,0 +1,42 @@
+.body,
+html {
+  background-color: peachpuff;
+}
+
+.Dropdown-Container {
+  /* border: 2px solid green; */
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  border-radius: 5px;
+  background: rgba(255, 0, 0, 0.477);
+  box-shadow: 3px 2px 7px black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 20px;
+}
+
+.open-drop-box {
+  position: absolute;
+  /* border: 2px solid purple; */
+  display: flex;
+  width: 24%;
+  height: 45%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#open-drop-box-id {
+  top: 5%;
+}
+
+.option-item {
+  /* position: relative; */
+  background: rgba(247, 153, 1, 0.667);
+  border-radius: 5px;
+  display: flex;
+  /* border: 2px solid red; */
+  height: 7%;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
