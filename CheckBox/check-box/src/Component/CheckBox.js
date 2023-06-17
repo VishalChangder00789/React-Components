@@ -61,11 +61,11 @@ const CheckBox = (props) => {
         ""
       )}
 
-      {isFilled & !isFirstTime ? (
+      {/* {isFilled & !isFirstTime ? (
         <label className="CheckBox-label success">{props.success}</label>
       ) : (
         ""
-      )}
+      )} */}
 
       <button
         type="submit"
